@@ -8,7 +8,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver   #
     url: jdbc:mysql://localhost:3306/imooc-springboot-learn?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     username: root
-    password: root #root
+    password: password #root
     hikari:
       connection-timeout: 30000     #等待连接池分配连接的最大市场（毫秒），超过这个时长还没有可用的连接则发生SQLException,默认30秒
       minimum-idle: 5               #最小链接数
